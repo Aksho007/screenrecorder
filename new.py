@@ -64,9 +64,9 @@ label1 = Label(screen_recorder, bd=0)
 label1.pack()
 
 # Create and place the components
-title_label = Label(screen_recorder, text=" Screen Recorder", font=("Ubuntu Mono", 20), bg="#009900")
+title_label = Label(screen_recorder, text=" Screen Recorder", font=("Ubuntu Mono", 20))
 title_label.place(relx=0.5, rely=0.1, anchor=CENTER)
-info_label = Label(screen_recorder, text="Enter 'e' to exit screen recording", bg="#FF3333")
+info_label = Label(screen_recorder, text="Enter 'e' to exit screen recording")
 info_label.place(relx=0.5, rely=0.4, anchor=CENTER)
 screen_button = Button(screen_recorder, text="Record Screen", command=record_screen, relief=RAISED)
 screen_button.place(relx=0.5, rely=0.7, anchor=CENTER)
